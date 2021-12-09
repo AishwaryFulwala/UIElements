@@ -171,10 +171,7 @@ class Registration: UIViewController {
             DispatchQueue.main.asyncAfter(deadline: .now() + 10.0, execute: {
                 let alert = UIAlertController(title: "Reigstration", message: "Registration Sucessfully", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel))
-                self.present(alert, animated: true, completion: (done) in {
-                    
-                    })
-                
+                self.present(alert, animated: true)
             })
         }
     }
